@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(211, 167, 110);
+}
+.formV{
+    width: 400px;
+    background-color: bisque;
+    padding: 20px;
+    /* text-transform: uppercase; */
+}
+.title{
+    margin-bottom: 20px 0;
+}
+.input-group{
+    margin-bottom: 20px 0;
+    
+}
+
+.input-group label{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.input-group input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+.input-group p{
+    font-size: 15px;
+    color: red;
+    visibility: hidden;
+}
+.input-group label{
+    color: brown;
+    font-weight: bold;
+}
+
+.title{
+    padding-bottom: 1rem;
+    color: brown;
+    font-weight: bold;
+}
+
+#submit{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    background-color:brown;
+    border: none;
+}
